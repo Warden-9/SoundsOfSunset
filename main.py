@@ -13,7 +13,7 @@ cogs = [music]
 
 client = commands.Bot(command_prefix='/', intents=discord.Intents.all())
 
-for i in range(len(cogs)):
+for i, cog in enumerate(cogs):
     cogs[i].setup(client)
 
 client.run(t['token'])
