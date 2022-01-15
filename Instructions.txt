@@ -1,0 +1,51 @@
+#### Mark Hibbing CIS 345 Tues/Thurs 12:00 - 1:15pm Project Project Submission ####
+
+This project requires:
+
+ - a Discord Server with the Sounds of Sunset bot added as a super user
+ - ffmpeg installed on your computer, preferably a Windows 10 PC
+ - single video YouTube URLs
+
+###Instructions###
+As I begin typing this, I'm starting to realize more and more that this project
+will not be functional without my assistance. While the code is gradable, too many
+factors are locked by user privacy protections for independent execution
+
+First, the bot needs to be added to a Discord server where testing can commence
+(sadly only I can do this because the bot is account bound).
+
+Second, ffmpeg needs to be properly installed on the test machine.
+Website: https://github.com/BtbN/FFmpeg-Builds/releases
+File Used: ffmpeg-n4.4.1-2-gcc33e73618-win64-gpl-4.4
+Tutorial URL: https://www.youtube.com/watch?v=r1AtmY-RMyQ&t=2s
+
+Third, main.py file needs to be run first followed by the backend_gui.py. These two
+files can run concurrently based on my testing so far on my personal PC
+
+Fourth, the bot must be added to a voice channel using the "/join" command while a
+human user is also in the channel
+
+Fifth, type in the "/play" command followed by a space and then your desired
+YouTube URL. Theoretically, any YouTube video should be sufficient. However, this
+project was designed specfiically for music videos of less than an hour in length
+
+Sixth, test the "/pause" command
+
+Seventh, test the "/resume" command
+
+Eighth, once a song has fully completed playing, you may continue playing music.
+Repeat steps 5-7 as appropriate
+
+Ninth, test the "/disconnect" command
+
+At this point, it would be appropriate to stop the code. If multiple tests are 
+desired, please repeat steps 3-9.
+
+The GUI, as originally intended, was meant to take URLs run through the bot and to
+add them to a list. This list could be updated using the refresh button. However,
+due to my inability and lack of further development, the connecting variable
+between the GUI and the music bot does not function as intended. Therefore, the 
+only button that will function properly on the GUI is the Exit button. I do
+apologize for this rather gaping hole in the project. I've spent mutliple days on
+this problem to no avail. I fully accept that I will lose points for this
+section of the project.
